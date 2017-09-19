@@ -40,7 +40,7 @@ $ command -v nvm
 nvm
 ```
 If you do not see nvm output then simply close and re-open your terminal window.  If this does not work then refer to the nvm link above for further instructions.
-````
+```
 $ nvm install 6.9.1
 $ nvm use 6.9.1
 ```
