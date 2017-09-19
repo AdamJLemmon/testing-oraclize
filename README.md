@@ -5,7 +5,7 @@ This repo is an example of how to write and test a contract that utilizes Oracli
 ## Quick Start
 1. Clone Me
 ```
-$ git clone git@github.com:AdamJLemmon/testing-oraclize.git
+$ git clone --recursive git@github.com:AdamJLemmon/testing-oraclize.git
 $ cd testing-oraclize
 ```
 
