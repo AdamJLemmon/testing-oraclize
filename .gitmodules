@@ -1,0 +1,4 @@
+[submodule "ethereum-bridge"]
+	path = ethereum-bridge
+	url = https://github.com/oraclize/ethereum-bridge
+	branch = master
