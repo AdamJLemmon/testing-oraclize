@@ -9,7 +9,7 @@ _Note the recursive flag as the ethereum-bridge is a submodule_
 
 ```
 $ git clone --recursive git@github.com:AdamJLemmon/testing-oraclize.git
-$ cd testing-oraclize/ethereum-bridge && npm install
+$ cd testing-oraclize/ethereum-bridge && npm install && cd ..
 ```
 
 2. Start your local client
