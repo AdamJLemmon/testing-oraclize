@@ -22,7 +22,7 @@ contract TestingOraclize is usingOraclize {
    * ie. function TestingOraclize() payable {} and deployer.deploy(TestingOraclize, { value: 10e18 })
    */
   function TestingOraclize() {
-    OAR = OraclizeAddrResolverI(0x23Ae7F929b1ec162EAE96c6958bD8D69809E3098);
+    OAR = OraclizeAddrResolverI(0x6f485C8BF6fc43eA212E93BBF8ce046C7f1cb475);
     oraclize_setProof(proofType_TLSNotary | proofStorage_IPFS);
   }
 

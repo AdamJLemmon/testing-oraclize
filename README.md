@@ -3,10 +3,13 @@ This repo is an example of how to write and test a contract that utilizes Oracli
 
 
 ## Quick Start
-1. Clone Me
+1. Clone Me and Install Dependencies
+
+_Note the recursive flag as the ethereum-bridge is a submodule_
+
 ```
 $ git clone --recursive git@github.com:AdamJLemmon/testing-oraclize.git
-$ cd testing-oraclize
+$ cd testing-oraclize/ethereum-bridge && npm install
 ```
 
 2. Start your local client
@@ -46,7 +49,6 @@ Now start the bridge. Note specifying account 49.
 
 ```
 testing-oraclize $ cd ethereum-bridge
-ethereum-bridge $
 ethereum-bridge $ node bridge -a 49
 ```
 
