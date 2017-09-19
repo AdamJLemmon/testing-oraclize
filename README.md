@@ -60,7 +60,7 @@ Please add this line to your contract constructor:
 OAR = OraclizeAddrResolverI(0x145437eac36aeacee0c135c9015fff316ba938ed);
 ```
 
-Update ./contracts/TestingOraclize#L25 with the above line.  Now as long as the same mnemonic is used when starting your client and the same account when starting the bridge than this line will not need to be changed. (Do remember to remove the OAR variable from your constructor before production, this is just for testing, in production it will automatically fetch the OAR depending on the chain you're running it, currently the Mainnet, Ropsten, and browser-solidity VM environment are supported.)
+Update /contracts/TestingOraclize#L25 with the above line.  Now as long as the same mnemonic is used when starting your client and the same account when starting the bridge than this line will not need to be changed. (Do remember to remove the OAR variable from your constructor before production, this is just for testing, in production it will automatically fetch the OAR depending on the chain you're running it, currently the Mainnet, Ropsten, and browser-solidity VM environment are supported.)
 
 4. Execute the contract test suite
 
