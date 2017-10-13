@@ -8,7 +8,7 @@ This repo is an example of how to write and test a contract that utilizes Oracli
 _Note the recursive flag as the ethereum-bridge is a submodule_
 
 ```
-$ git clone --recursive git@github.com:AdamJLemmon/testing-oraclize.git
+$ git clone --recursive https://github.com/AdamJLemmon/testing-oraclize.git
 $ cd testing-oraclize/ethereum-bridge && npm install && cd ..
 ```
 
